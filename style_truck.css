@@ -1,0 +1,599 @@
+.frontal {
+    position: absolute;
+    width: 370px;
+    height: 440px;
+    background: rgb(192, 190, 190);
+    text-align: center;
+    top: 50%;
+    left: 86%;
+    border-radius : 20px 85px 20px 20px;
+    transform: translate(-50%, -50%);
+}    
+
+.janela {
+    position: relative;
+    height: 80px;
+    width: 100px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    left: 6px;
+    top: 8px;
+    border-radius: 10px 10px 10px 10px;
+    border: 5px rgb(0, 0, 0);
+    border-style: inset;
+}
+
+.linha1 {
+    position: relative;
+    height: 108px;
+    width: 5px;
+    background-color: black;
+    left: 47.9%;
+    top: -48%;
+    transform: rotate(90deg);
+}
+
+.jesus {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0.5px 0.3px 1.6px 1.5px rgb(192, 190, 190);
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    left: 90px;
+    top: -195px;
+    align-content: center;
+}
+
+.punho {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 17px;
+    height: 9px;
+    border-radius: 2px;
+    left: 20px;
+    top: 25px;
+}
+
+.chave {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 4.5px;
+    height: 4.5px;
+    border: 3px;
+    border-radius: 100%;
+    left: 23px;
+    top: 31px;
+}
+
+.tampa {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    box-shadow: 0.5px 0.3px 1.6px 1.5px rgb(192, 190, 190);
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    left: 90px;
+    top: -180px;
+}
+
+.porta {
+    position: relative;
+    height: 270px;
+    width: 130px;
+    background-color: rgb(192, 190, 190);
+    box-shadow: 0.5px 0.3px 1.6px 1.5px rgb(192, 190, 190);
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 10px 10px 0px 10px;
+    border-style: groove;
+    left: 190px;
+    top: 70px;
+}
+
+.retrovisor {
+    position: relative;
+    width: 20px;
+    height: 50px;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    border: 3px solid black;
+    border-radius: 10px;
+    left: 115px;
+    top: -99px;
+}
+
+.linha1_retrovisor_eixo {
+    position: relative;
+    width: 3.8px;
+    height: 30px;
+    background-color: black;
+    left: 131px;
+    top: -100px;
+}
+
+.linha2_retrovisor_eixo {
+    position: relative;
+    width: 3.8px;
+    height: 30px;
+    background-color: black;
+    left: 121px;
+    top: -130px;
+}
+
+.eixo_retrovisor {
+    position: relative;
+    width: 23px;
+    height: 17px;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 10px;
+    left: 112.4px;
+    top: -132px;
+}
+
+.farol {
+    position: relative;
+    width: 17px;
+    height: 23px;
+    background-image: linear-gradient(-225deg, #FFFEFF 20%, #D7FFFE 100%);
+    border-radius: 0px 30px 30px 0px;
+    border-style: groove;
+    left: 350px;
+    top: -75px;
+}
+
+.sinalizador1 {
+    position: relative;
+    width: 9px;
+    height: 4px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-radius: 3px 3px 3px 3px;
+    border-color: orangered;
+    border-style: ridge;
+    left: 93px;
+    top: -196px;
+}
+
+.pneu1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 20px solid white;
+    border-radius: 100%;
+    border-style: double;
+    left: 112px;
+    top: -283.3px;
+}
+
+.aro1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 114, 114);
+    border: 6px solid rgb(117, 114, 114);
+    border-radius: 100%;
+    border-style: dotted;
+    left: 18px;
+    top: 19.5px;
+}
+
+.pedal1 {
+    position: relative;
+    width: 50px;
+    height: 6px;
+    background-color:rgb(117, 114, 114);
+    border-radius: 20px;
+    border-style: ridge;
+    left: 80px;
+    top: 40px;
+    opacity: 0.5;
+}
+
+.pedal2 {
+    position: relative;
+    width: 30px;
+    height: 6px;
+    background-color:rgb(117, 114, 114);
+    border-radius: 20px;
+    border-style: ridge;
+    left: 100px;
+    top: 80px;
+    opacity: 0.5;
+}
+
+.parabrisa {
+    position: relative;
+    width: 20px;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    left: 364px;
+    top: -750px;
+    transform: rotate(-5deg);
+}
+
+.caixa1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 20px;
+    left: -42px;
+    top:-160px;
+}
+
+.detalhe_triangulo {
+    position: relative;
+    width: 100px;
+    height: 600px;
+    background-color: white;
+    left: -200px;
+    top: -110px;
+    transform: rotate(45deg);
+}
+
+.traseira {
+    position: relative;
+    width: 600px;
+    height: 124px;
+    background-color: rgb(192, 190, 190);
+    border-radius: 65px 0px 0px 0px;
+    left: 952px;
+    top: 554px;
+}
+
+.pneu_traseira_1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 20px solid white;
+    border-radius: 100%;
+    border-style: double;
+    left: 5px;
+    top: -109px;
+}
+
+.pneu_traseira_2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 20px solid white;
+    border-radius: 100%;
+    border-style: double;
+    left: 190px;
+    top: -298px;
+}
+
+.aro_traseiro_1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 114, 114);
+    border: 6px solid rgb(117, 114, 114);
+    border-radius: 100%;
+    border-style: dotted;
+    left: 18px;
+    top: 19.5px;
+}
+
+.aro_traseiro_2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 114, 114);
+    border: 6px solid rgb(117, 114, 114);
+    border-radius: 100%;
+    border-style: dotted;
+    left: 18px;
+    top: 19.5px;
+}
+
+.linha_detalhe1 {
+    position: relative;
+    width: 400px;
+    height: 2px;
+    background-color:rgb(117, 114, 114);
+    transform: rotate(90deg);
+    left: -157px;
+    top:-258.4px;
+}
+
+.linha_detalhe2 {
+    position: relative;
+    width: 365px;
+    height: 2.5px;
+    background-color:rgb(117, 114, 114);
+    left: 0.7px;
+    top:-400px;
+}
+
+.tanque_de_combustivel {
+    position: relative;
+    width: 190px;
+    height: 111.45px;
+    left: 392px;
+    background-color: rgb(192, 190, 190);
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    top: 3px;
+}
+
+.bebedor {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid rgb(192, 190, 190);
+    border-style: groove;
+    left: 120px;
+    top: 8px;
+}
+
+.listra1 {
+    position: relative;
+    width: 10px;
+    height: 114px;
+    background-color: rgb(117, 114, 114);
+    top: -24px;
+    left: 16px;
+}
+
+.listra2 {
+    position: relative;
+    width: 10px;
+    height: 114px;
+    background-color: rgb(117, 114, 114);
+    top: -136px;
+    left: 162.5px;
+}
+
+.container {
+    position: relative;
+    width: 1300px;
+    height: 340px;
+    background-color: rgb(192, 190, 190);
+    border: 3px solid rgb(117, 114, 114);
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: none;
+    left: 100px;
+    top: -35.8px;
+}
+
+.linha_1_container {
+    position: relative;
+    width: 1300px;
+    height: 41.2px;
+    background-color: rgb(117, 114, 114);
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: none;
+    left: 0px;
+    top:300px;
+}
+
+.eixo_traseiro {
+    position: relative;
+    width: 385px;
+    height: 124px;
+    background-color: rgb(192, 190, 190);
+    border-radius: 65px 65px 0px 0px;
+    left: 200px;
+    top: 430px;
+}
+
+.pneu_eixo_traseiro_1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 20px solid white;
+    border-radius: 100%;
+    border-style: double;
+    left: 5px;
+    top: 12px;
+}
+
+.aro_pneu_traseiro_1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 114, 114);
+    border: 6px solid rgb(117, 114, 114);
+    border-radius: 100%;
+    border-style: dotted;
+    left: 18.5px;
+    top: 22px;
+}
+
+.pneu_eixo_traseiro_2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 20px solid white;
+    border-radius: 100%;
+    border-style: double;
+    left: 190px;
+    top: -178px;
+}
+
+.aro_pneu_traseiro_2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 114, 114);
+    border: 6px solid rgb(117, 114, 114);
+    border-radius: 100%;
+    border-style: dotted;
+    left: 18.5px;
+    top: 19.5px;
+}
+
+.sinalizador2 {
+    position: relative;
+    width: 50px;
+    height: 6px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-radius: 3px 3px 3px 3px;
+    border-color: orange;
+    border-style: ridge;
+    left: 40px;
+    top: 275px;
+}
+
+.sinalizador3 {
+    position: relative;
+    width: 50px;
+    height: 6px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-radius: 3px 3px 3px 3px;
+    border-color: orange;
+    border-style: ridge;
+    left: 640px;
+    top: 264px;
+}
+
+.sinalizador4 {
+    position: relative;
+    width: 50px;
+    height: 6px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-radius: 3px 3px 3px 3px;
+    border-color: orange;
+    border-style: ridge;
+    left: 1210px;
+    top: 251px;
+}
+
+.bloco {
+    position: relative;
+    width: 209px;
+    height: 70px;
+    background-color: rgb(117, 114, 114);
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: none;
+    left: 563px;
+    top:260px;
+}
+
+.punho2 {
+    position: relative;
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    width: 16px;
+    height: 6px;
+    left: 90px;
+    top: 10px;
+}
+
+.transmodall {
+    position: relative;
+}
+
+p#transmodall_ {
+    position: relative;
+    font-size: 100pt;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 114, 114);
+    letter-spacing: 10px;
+    top: -270px;
+    text-align: center;
+}
+
+P#servicos {
+    position: relative;
+    font-weight: lighter;
+    font-size: 20pt;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 114, 114);
+    letter-spacing: 8px;
+    top: -390px;
+    text-align: center;
+}
+
+.ligacao {
+    position: relative;
+    width: 10px;
+    height: 80px;
+    background-color:rgb(117, 114, 114);
+    border-radius: 20px 20px 20px 20px;
+    left: 100px;
+    top:-77px;
+}
+
+.toco {
+    position: relative;
+    width: 20px;
+    height: 30px;
+    background-color:rgb(117, 114, 114);
+    border-radius: 20px 20px 20px 20px;
+    left: 90px;
+    top:13px;
+}
+
+.instagram {
+    position: relative;
+    top: -386px;
+    left: 22px;
+}
+
+p#insta_transmodall {
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 114, 114);
+    letter-spacing: 6px;
+    top: -50px;
+    left: -447px;
+    text-align: center;
+}
+
+.outlook {
+    position: relative;
+    top: -483px;
+    left: 400px;
+}
+
+p#outlook_transmodall {
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 114, 114);
+    letter-spacing: 6px;
+    top: -52.2px;
+    left: -340px;
+    text-align: center;
+}
+
+.whatsapp {
+    position: relative;
+    top: -583px;
+    left: 980px;
+}
+
+p#telefone {
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: "tabular-numbers";
+    src: local("charter"), local("cambria");
+    unicode-range: U+0030-0039;
+    color: rgb(117, 114, 114);
+    letter-spacing: 6px;
+    top: -62px;
+    left: -476px;
+    text-align: center;
+}
+
+.contatos {
+    position: relative;
+    top: 10px;
+}
